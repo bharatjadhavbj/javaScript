@@ -7,7 +7,7 @@ console.log("My Full Name :",myFullName);
 
 // assign 2
 var myLove="I love only JS";
-console.log("My love=",myLove);
+console.log(myLove);
 
 //assign 3
 
