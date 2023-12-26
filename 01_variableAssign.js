@@ -1,6 +1,6 @@
 var myFullName; //Declaration
 myFullName="Bharat Jadhav";
-console.log("My First & Last Name is=",myFullName);
+console.log("My First & Last Name =",myFullName);
 myFullName="Bharat Ramchandra Jadhav";  //variable update 
 console.log("My Full Name :",myFullName);
 
