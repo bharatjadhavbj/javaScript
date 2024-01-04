@@ -59,7 +59,7 @@ var strLen=str.length;
 }
 
 checkStrLength("JavaScript-ES6");
-// checkStrLength("Developer");
+checkStrLength("Developer");
 
 console.log("--------------------------------------------------Step 4-------------------------------------------------------\n");
 
