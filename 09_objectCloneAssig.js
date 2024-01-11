@@ -10,7 +10,7 @@ const bankSbi={
     bankStaff: 15,
     branchLocation: 'Sangola'
 }
-console.table(bankSbi);
+console.log(bankSbi);
 
 console.log(`\n----------------------------------------------------Step 2---------------------------------------------------------- \n`);
 
@@ -21,12 +21,13 @@ const bankLocation={
     city:'Sangola',
     pin:413307
 }
-console.table(bankLocation);
+console.log(bankLocation);
 console.log(`\n----------------------------------------------------Step 3---------------------------------------------------------- \n`);
 
 console.log(`after cloning of bankSbi And bankLocation result is :`);
-const bankDetail=Object.assign({},bankSbi,bankLocation)
-console.table(bankDetail);
+const bankDetail=Object.assign({},bankSbi)
+const bankDetail1=Object.assign({},bankLocation)
+console.log(bankDetail,"\n",bankDetail1);
 
 console.log(`\n----------------------------------------------------Step 4---------------------------------------------------------- \n`);
 
@@ -35,13 +36,14 @@ const rateOfIntrest ={
     personalLoanInterest: 11.15,
     dueInterest: 7.60    
 }
+console.log(`Given 'rateOfInterest' Object :=>`);
 console.log(JSON.stringify(rateOfIntrest));
 
 
 console.log(`\n----------------------------------------------------Step 5---------------------------------------------------------- \n`);
 
 console.log(`Total bank detail is :`);
-const sbiDetail=Object.assign({},bankDetail,rateOfIntrest);
+const sbiDetail=Object.assign({},bankSbi,bankLocation,rateOfIntrest);
 console.log(JSON.stringify(sbiDetail));
 
 console.log(`\n----------------------------------------------------Step 6---------------------------------------------------------- \n`);
