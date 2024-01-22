@@ -28,10 +28,7 @@ const isAnagrams = (str1, str2)=>{
     const resultStr2 = str2.split("").sort().join("");
     return resultStr1==resultStr2 ? true : false;
 }
-const resultAnagram =isAnagrams("heart","earth");
-console.log(`Given words 'heart' and 'earth' are Anagram or Not => ${resultAnagram} `);
-
-const resultAnagram1 =isAnagrams("Silent","Listen");
+const resultAnagram1 =isAnagrams("silent","listen");
 console.log(`Given words 'Silent' and 'Listen' are Anagram or Not => ${resultAnagram1} `);
 
 const resultAnagram2 =isAnagrams("Hello","World");
