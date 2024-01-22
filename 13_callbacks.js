@@ -5,18 +5,20 @@ function jenny(callback){ // arg = 100
     callback();
  }
  
+
  let bill = function(){
      console.log(`I am Bill and I am going to play Cricket `);
      console.log(`I know Jenny likes me, Hence once She completes her homework`);
      console.log(`She will definitely call me back..`);
      console.log(`Then I will copy all the assignments as it is..`);
  }
+ 
  jenny(bill)
-
 
  let greet = function(){
     console.log(`Hey.. Good Morning..`);
-}
+ }
+ 
 setTimeout(greet, 5000); // 1 Sec = 1000 Milli seconds
 
 setTimeout( function(){
