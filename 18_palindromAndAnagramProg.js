@@ -3,7 +3,7 @@ console.log(`----------------------------------------------------------------ste
 
 // console.log(`====== WAP for find word is Palindrome or not ======\n`);
 // for eg :- MADAM
-const isPalindrome = function(word){
+const isPalindrome = function(word){   
 const reversWord=word.split("").reverse().join("");
 return word==reversWord?true:false;
 }
